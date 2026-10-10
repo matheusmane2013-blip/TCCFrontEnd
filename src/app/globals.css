@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes nadar {
+  0% {
+    transform: translate(0px, 0px) scaleX(-1);
+  }
+  49% {
+    transform: translate(200px, -20px) scaleX(-1); /* Vai para a direita e sobe um pouco */
+  }
+  50% {
+    transform: translate(200px, -20px) scaleX(1); /* Vira o peixe para o outro lado */
+  }
+  99% {
+    transform: translate(0px, 10px) scaleX(1); /* Volta para a esquerda */
+  }
+  100% {
+    transform: translate(0px, 0px) scaleX(1); /* Reseta e vira de frente de novo */
+  }
+}
+
+.animacao-nadar {
+  animation: nadar 8s infinite ease-in-out;
+}
