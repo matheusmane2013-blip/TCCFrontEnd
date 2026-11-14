@@ -1,0 +1,30 @@
+{
+  "agua": {
+    "ph": 6.8,
+    "temperatura": 25,
+    "amonia": 0.0,
+    "nitrito": 0.0
+  },
+  "peixes": [
+    {
+      "id": "bandeira",
+      "nome": "Peixe Bandeira",
+      "saude": 100,
+      "phMin": 5.5,
+      "phMax": 7.4,
+      "tempMin": 24,
+      "tempMax": 30,
+      "amoniaMax": 0.05
+    },
+    {
+      "id": "corydoras",
+      "nome": "Corydoras",
+      "saude": 100,
+      "phMin": 6.0,
+      "phMax": 7.4,
+      "tempMin": 22,
+      "tempMax": 26,
+      "amoniaMax": 0.05
+    }
+  ]
+}

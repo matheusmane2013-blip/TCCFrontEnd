@@ -1,11 +1,13 @@
-export default function Peixeobj({ imagem }) {
+export default function Peixeobj({ imagem, morto }) {
     return (
-        <div className="w-20 h-20 animacao-nadar">
-            <img 
-                src={imagem} 
-                alt="Peixe Nadando" 
-                className="w-full h-full object-contain"
-            />
-        </div>
+        <img 
+            src={imagem} 
+            alt="Peixe no Aquário" 
+            className={`w-24 h-24 object-contain transition-transform ${
+                morto 
+                    ? 'animate-bounce opacity-80' // Morto: Tira a natação e bota o bounce
+                    : 'animacao-nadar'              // Vivo: Usa a sua animação personalizada
+            }`}
+        />
     );
 }

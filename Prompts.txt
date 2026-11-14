@@ -1,0 +1,18 @@
+Ajustes:
+- Conforme os parâmetros forem ficando ruins a comida vai diminuir a quantidade de vida que ela restaura até em 40% ela ser inutil para ambos os peixes(Para estimular os players à usarem outras medidas ao inves de spamar comida para eles verem que comida n é o santo graal)
+- Adicione um texto de cooldown no lugar de onde fica o local provisorio de ver a amonia acima do pote de comida
+- é possivel, nesta versão, reviver os peixes com comida, mas o primeiro ajuste especificado já resoveria isso, só para vc já burlar todo os outros tipos de bugs que poderiam vir criando uma função especifica de impedir de a comida ser usada
+- Remova o animacao-nadar dos peixes quando eles forem morrer
+- Já adiciona para que quando a amonia sobe o pH aumenta também ao longo do tempo, separe em 3 variaveis
+*  AmoniaTimeChange: 0.01(A comida iria aumentar essa variavel em 0.01, ao invés de aumentar amonia automaticamente)
+    pHTimeChange: (Uma conta que pega a Amonia time grow e divide por 4)
+    TemperaturaTimeChange: Já pode botar para o aquario poder aleatoriamente escolher entre 2 eventos, um evento de diminuir a temperatura em 0.5*C ao longo do tempo e um de aumentar na mesma proporção, que só pararia quando o player acertasse a temperatura
+Vamos dividir em diferentes fases cada pedido para n fazer tudo de uma vez
+Fase1 - Conforme os parâmetros forem ficando ruins a comida vai diminuir a quantidade de vida que ela restaura até em 40% ela ser inutil para ambos os peixes(Para estimular os players à usarem outras medidas ao inves de spamar comida para eles verem que comida n é o santo graal)
+Adicione um texto de cooldown no lugar de onde fica o local provisorio de ver a amonia acima do pote de comida
+é possivel, nesta versão, reviver os peixes com comida, mas o primeiro ajuste especificado já resoveria isso, só para vc já burlar todo os outros tipos de bugs que poderiam vir criando uma função especifica de impedir de a comida ser usada
+Remova o animacao-nadar dos peixes quando eles forem morrer
+- Fase 2 - Já adiciona para que quando a amonia sobe o pH aumenta também ao longo do tempo, separe em 3 variaveis
+-  AmoniaTimeChange: 0.01(A comida iria aumentar essa variavel em 0.01, ao invés de aumentar amonia automaticamente)
+    pHTimeChange: (Uma conta que pega a Amonia time grow e divide por 4)
+    TemperaturaTimeChange: Já pode botar para o aquario poder aleatoriamente escolher entre 2 eventos, um evento de diminuir a temperatura em 0.5*C ao longo do tempo e um de aumentar na mesma proporção, que só pararia quando o player acertasse a temperatura
